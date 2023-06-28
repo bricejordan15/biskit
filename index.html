@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biskit</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="top-ad-copy">
+      20% OFF SITEWIDE ALL WEEK LONG! --- USE CODE: TWENTYOFF
+    </div>
+    <div id="header-bar">
+      <img id="logo-header-img" src="imgs/logo.svg" />
+      <input id="search-bar" type="text" placeholder="Search" />
+      <button id="search-button" type="button">
+        <span><img id="search-button-icon" src="imgs/searchicon.png" /></span>
+      </button>
+      <div class="header-icon-block">
+        <img class="header-icon" id="coupons-img" src="imgs/couponsicon.svg" />
+        <img class="header-icon" id="account-img" src="imgs/accounticon.svg" />
+        <img
+          class="header-icon last-icon"
+          id="cart-img"
+          src="imgs/carticon.svg"
+        />
+      </div>
+    </div>
+    <div id="nav-bar">
+      <a>Shop by Pet</a>
+      <a>Shop by Brand</a>
+      <a>Pharmacy</a>
+      <a>Today's Deals</a>
+      <a>Biskit Picks</a>
+      <a>Charity</a>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img class="carousel-img" src="imgs/carouselimg1.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="carousel-img" src="imgs/carouselimg2.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="carousel-img" src="imgs/carouselimg3.jpg" />
+      </div>
+
+      <a class="prev" onclick="slideBackward()">&#60;</a>
+      <a class="next" onclick="slideForward()">&#62;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot active" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <div id="shop-by-pet">
+      <h2 class="section-header">SHOP BY PET</h2>
+      <div class="media-scroller snaps-inline">
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>DOG</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>CAT</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>SMALL PET</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>BIRD</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>REPTILE</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>FISH</p>
+        </div>
+        <div class="category-square">
+          <div class="category-block-square"></div>
+          <p>LIVESTOCK</p>
+        </div>
+        <div class="category-square last">
+          <div class="category-block-square"></div>
+          <p>EXOTIC</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
